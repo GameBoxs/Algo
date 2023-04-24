@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+SELECT COUNT(
+CASE
+    when AGE IS NULL THEN 1
+END
+) as USERS
+FROM USER_INFO
